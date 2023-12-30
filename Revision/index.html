@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan = "3" >Day</th>
+                <th colspan = "3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan = "2">Schedule</th>
+                <th rowspan = "2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 AM</td>
+                <td rowspan="2">5:00 PM</td>
+                <td>Introduction to HTML</td>
+            </tr>
+            <tr>
+                <td>Basic Command Line</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 AM</td>
+                <td>11:00 AM</td>
+                <td rowspan="2">Git Command Line</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>2:00 PM</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td>5:00 PM</td>
+                <td>Git & Github</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 AM</td>
+                <td>12:00 PM</td>
+                <td>Introduction to CSS</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <form action="">
+        <label for="firstname">First Name: </label>
+        <input type="text" id="firstname" name="firstname" required placeholder="Enter Your First Name">
+        <br>
+        <label for="lastname">Last Name: </label>
+        <input type="text" id="lastname" name="lastname" required placeholder="Enter Your Last Name">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder = "Enter your Mail">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required placeholder="Enter your Secret Key">
+        <br>
+        <input type="submit">
+        <!-- <button type="reset">Reset</button> -->
+    </form>
+</body>
+</html>
