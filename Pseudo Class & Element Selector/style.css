@@ -1,0 +1,107 @@
+/* button{
+    padding: 5px;
+    font-size: 24px;
+    background-color: aqua;
+}
+button:hover{
+    background-color: red;
+    color: white;
+} */
+/* 
+div p:first-child{
+    color: red;
+} 
+div p:last-child{
+    color: blue;
+}  */
+
+/* p:first-of-type{
+    color: green;
+}
+p:last-of-type{
+    color: red;
+} */
+
+/* p:not(.paragraph){
+    color: blue;
+} */
+
+/* li:nth-child(odd){
+    border-bottom: 3px solid red;
+}
+li:nth-last-child(2n){
+    color: purple;
+}
+li:nth-child(2n+2){
+    background-color: aqua;
+} */
+
+/* div:empty{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+} */
+
+
+/* link Pseudo Class  */
+
+/* p a:link{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    background-color: aqua;
+}
+p a:visited{
+    color: red;
+}
+p a:focus{
+    background-color: beige;
+}
+p a:hover{
+    border-bottom: 2px solid green;
+}
+p a:active{
+    border: 2px solid pink;
+} */
+
+/* Pseudo Element Selector  */
+/* p::first-line{
+    color: green;
+}
+p::first-letter{
+    font-size: 50px;
+    color: aqua;
+} */
+
+/* h2::before{
+    content: "Welcome To ";
+    color: red;
+}
+h2::after{
+    content: " Platform 💯";
+    color: red;
+} */
+
+/* li::marker{
+    color: lawngreen;
+} */
+
+/* p::selection{
+    background-color: aquamarine;
+} */
+/* 
+.paragraph{
+    color: green;
+}
+#unique{
+    color: red;
+}
+p{
+    color: skyblue !important; 
+} */
+
+/* Color  */
+h2{
+    color: rgba(120, 45, 52 , 0.22);
+}
