@@ -1,0 +1,143 @@
+/* h1{
+    color: #4eec0f7a;
+}
+h1{
+    color: rgb(222, 111, 52);
+}
+h1{
+    color: rgba(111, 222, 111, 0.5);
+}
+h1{
+    color: hsl(180, 50%, 50%);
+}
+h1{
+    color: hsla(350 , 78% , 22% , 0.7);
+} */
+
+/* p.good_contrast{
+    color: #333;
+    background-color: #f2f2f2;
+}
+p.bad_contrast{
+    color: #98a6a7;
+    background-color: #c7d3d4;
+} */
+
+/* p{
+    width: 300px;
+    background-color: greenyellow;
+}
+p{
+    width: 1in;
+    background-color: greenyellow;
+}
+p{
+    width: 1cm;
+    background-color: greenyellow;
+}
+p{
+    width: 100mm;
+    background-color: greenyellow;
+}
+p{
+    width: 500pt;
+    background-color: greenyellow;
+} */
+
+/* .container{
+    font-size: 30px;
+}
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 1.5em;
+}
+.small{
+    font-size: 0.7em;
+} */
+
+/* REMs  */
+/* h1{
+    font-size: 6rem;
+}
+h2{
+    font-size: 4rem;
+}
+p{
+    font-size: 2rem;
+}
+.pixels h1{
+    font-size: 96px;
+}
+.pixels h2{
+    font-size: 64px;
+}
+.pixels p{
+    font-size: 32px;
+} */
+/* body{
+    margin: 0;
+}
+.container{
+    background-color: magenta;
+    width: 50vw;
+    height: 80vh;
+}
+.container2{
+    background-color: cyan;
+    width: 50vw;
+    height: 100vh;
+} */
+
+/* Percentage Relative Unit  */
+/* div.parent{
+    width: 400px;
+    height: 100px;
+    background-color: skyblue;
+    border: 2px solid red;
+}
+div.child{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    border: 2px solid black;
+} */
+
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(photo1.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.5;
+} */
+div.box{
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    margin-bottom: 10px;
+}
+div.box1 img{
+    height: 100px;
+    width: 100px;
+    opacity: 0.6;
+}
+/* div.box1{
+    opacity: 1;
+} */
+div.box2{
+    opacity: 0.7;
+}
+div.box3{
+    opacity: 0.5;
+}
+div.box4{
+    opacity: 0.2;
+}
+/* p{
+    color: red;
+} */
