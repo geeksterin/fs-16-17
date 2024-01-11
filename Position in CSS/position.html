@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in CSS</title>
+    <style>
+        div{
+            border: 2px solid black;
+        }
+        img{
+            margin: 10px;
+        }
+        .container{
+            position: relative;
+            height: 8000px;
+            background-color: bisque;
+        }
+        .image2{
+            /* This will not work to place the content or image anywhere in your webbpage */
+            /* position: static;
+            top: 100px;
+            left: 100px; */
+            /* position: relative;
+            top: 100px;
+            left: 100px; */
+            /* Whenever you write position absolute , it overlaps */
+            /* Will Act according to the body  */
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 200px;
+            height: 200px;
+        }
+        .image4{
+            position: fixed;
+        }
+        .image3{
+            position: sticky;
+            top: 200px;
+        }
+        .box{
+            height: 2000px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img 
+        src="photo1.jpg" 
+        alt="poster 1"
+        width="300px"
+        height="300px"
+        class="image1"
+        >
+        <img 
+        src="photo2.jpg" 
+        alt="poster 2"
+        width="300px"
+        height="300px"
+        class="image2"
+        >
+        <img 
+        src="photo3.jpg" 
+        alt="poster 3"
+        width="300px"
+        height="300px"
+        class="image3"
+        >
+        <img 
+        src="photo4.jpg" 
+        alt="poster 4"
+        width="300px"
+        height="300px"
+        class="image4"
+        >
+    </div>
+    <div class="box"></div>
+</body>
+</html>
