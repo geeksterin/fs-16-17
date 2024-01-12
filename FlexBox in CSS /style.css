@@ -1,0 +1,130 @@
+/* div{
+    font-size: 24px;
+    padding: 14px;
+}
+
+div.div1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 270px;
+    z-index: 2;
+    background-color: aqua;
+}
+div.div2{
+    position: absolute;
+    top: 180px;
+    left: 0;
+    width: 200px;
+    height: 450px;
+    z-index: 5;
+    background-color: yellow;
+}
+div.div3{
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    width: 200px;
+    height: 370px;
+    z-index: 10;
+    background-color: greenyellow;
+} */
+
+
+
+/* OverFlow  */
+/* div{
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+    border: 2px solid black;
+    overflow: hidden;
+    overflow: visible;
+    overflow: scroll;
+}
+p{
+   width: 500px;
+   height: 400px;
+    font-size: 14px;
+} */
+
+/* div.container{
+    display: flex;
+    height: 500px; */
+    /* flex-direction: row;
+    flex-wrap: wrap-reverse; */
+    /* justify-content: center; */
+    /* align-items: space-evenly; */
+    /* align-content: flex-start;
+    row-gap: 25px;
+    flex-flow: row wrap;
+    border: 2px solid green;
+    background-color: blueviolet; */
+/* } */
+/* div.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: aqua;
+    margin: 5px;
+} */
+
+
+/* Flex Items  */
+/* div.container{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;    
+}
+div.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: aqua;
+    margin: 5px;
+}
+div.box1{
+    order: 3;
+    background-color: greenyellow;
+
+}
+div.box2{
+    order: 1;
+    background-color: orange;
+
+}
+div.box3{
+    order: 2;
+    background-color: red;
+
+} */
+
+div.container{
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    background-color: purple;    
+}
+div.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: aqua;
+    margin: 5px;
+}
+div.container2 div.box{
+    /* flex-grow: 1; */
+    flex: 2  0 50px;
+
+}
+.box3{
+    /* flex-basis: 250px; */
+    align-self: center;
+}
+/* .box4{
+    flex-shrink: 2;
+} */
