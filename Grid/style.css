@@ -1,0 +1,40 @@
+.container{
+    height: 700px;
+    width: 700px;
+    background-color: #111;
+    margin: 200px auto;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header aside"
+    "main main main aside"
+    "section section figure article"
+    "footer footer footer footer";
+}
+.box{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.header{
+    grid-area: header;
+}
+.aside{
+    grid-area: aside;
+}
+.main{
+    grid-area: main;
+}
+.section{
+    grid-area: section;
+}
+.figure{
+    grid-area: figure;
+}
+.article{
+    grid-area: article;
+}
+.footer{
+    grid-area: footer;
+}
