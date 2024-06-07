@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.blue {
+  border: 5px solid yellow;
+  color: yellow;
+}
+
+.card {}

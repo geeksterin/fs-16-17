@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-pattern {
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/triangles_pattern.png');
+}
+

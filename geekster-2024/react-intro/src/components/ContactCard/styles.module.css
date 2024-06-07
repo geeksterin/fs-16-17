@@ -1,0 +1,12 @@
+.card {
+  border: 10px solid white;
+  height: 200px;
+  max-width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+
+.common {
+  background-color: green;
+}
